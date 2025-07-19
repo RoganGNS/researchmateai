@@ -6,18 +6,33 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "dependencies": {
+    "next": "15.4.1",
+    "node-fetch": "^2.7.0",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.4.1"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.4.1",
-    "@eslint/eslintrc": "^3"
-  }
+    "tailwindcss": "^4"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoganGNS/researchmateai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoganGNS/researchmateai/issues"
+  },
+  "homepage": "https://github.com/RoganGNS/researchmateai#readme"
 }
